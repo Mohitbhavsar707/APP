@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ElectronCgi Demo</title>
+    <link href="index.css" rel="stylesheet"/>
+  </head>
+  <body>
+
+    <div class="loading-screen">
+      <div class="loading-message">
+        Loading...
+      </div>
+    </div>
+
+    <div id="calculator">
+      <div class="result-container">
+        <span id="result">0</span>
+        <span id="operation"></span>
+      </div>
+
+      <button board>INFO</button>
+
+    </div>
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+  </body>
+</html>
+
