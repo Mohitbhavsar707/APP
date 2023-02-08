@@ -140,3 +140,5 @@
 2023-02-08 11:08:46.522 -05:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":[],"id":"f4c08c3d-0045-4933-9713-26f8b67544af"}}
 2023-02-08 11:12:09.917 -05:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"info","id":"b42af4e2-5be0-45f0-aef5-2b43a8b75ab8","args":"null"}}	
 2023-02-08 11:12:10.423 -05:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":[],"id":"b42af4e2-5be0-45f0-aef5-2b43a8b75ab8"}}
+2023-02-08 12:00:09.469 -05:00 [VRB] STDIN: {"type": "REQUEST", "request": {"type":"info","id":"0997817c-5178-4496-ab4a-df034f15f5eb","args":"null"}}	
+2023-02-08 12:00:09.916 -05:00 [VRB] STDOUT: {"type":"RESPONSE","response":{"result":[],"id":"0997817c-5178-4496-ab4a-df034f15f5eb"}}

@@ -8,12 +8,12 @@ let mainWindow
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 500,
-    height: 500,
+    show:false,   
     webPreferences: {
       nodeIntegration: true
     }
   })
+  mainWindow.maximize();
 
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
